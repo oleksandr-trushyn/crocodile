@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    /*font-family: 'Bebas Neue', cursive;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5e5e;
+}
+.header{
+    background-color: #000000;
+}
+.header_info{
+    display: flex;
+    padding: 15px 0px 9px;
+}
+.header_antivirus{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFB800;
+    padding-right: 10px;
+}
+.header_app{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    padding-left: 12px;
+}
+.dowload_inner{
+    padding-top: 287px;
+    text-align: center;
+}
+.download_title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: capitalize;
+    font-family: 'Bebas Neue', cursive;
+    color: #000;
+    padding-bottom: 40px;
+}
+.download_btn{
+    background: linear-gradient(0deg, #130999 -0.01%, #174D8F 35.01%, #1A7F87 64.91%, #1C9E83 87.44%, #1DAA81 99.99%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px 50px 13px 35px;
+    border-radius: 90px 90px 90px 90px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+}
+.download_btn:after{
+    width: 30px;
+    height: 30px;
+    content: "\e900";
+    font-family: 'icomoon';
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    color: #174D8F;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.crocodile_inner{
+    padding-bottom: 40px;
+    background-image: url("../img/Vector.png");
+    padding-top: 314px;
+    padding-bottom: 45px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.footer{
+    background-color: #000000;
+    margin-top: 45px;
+}
+.footer_antivirus{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFB800;
+    padding-top: 8px;
+
+}
+.footer_copy{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
