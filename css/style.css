@@ -96,6 +96,7 @@ body{
     background-position: bottom right;
 }
 .footer{
+    position: relative;
     background-color: #000000;
     margin-top: 45px;
 }
@@ -115,5 +116,63 @@ body{
     font-size: 14px;
     line-height: 27px;
     color: #FFFFFF;
+}
+.page{
+    overflow: hidden;
+}
+.page_title{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 30px;
+    letter-spacing: 1.5px;
+
+}
+.page_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.stage {
+    height: 185px;
+    width: 100%;
+}
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+}
+.house {
+    height: 135px;
+    width: 160px;
+    margin: 35px 20px 35px 0;
+    background: #3683F7;;
+    position: relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.house::before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 0;
+    top: 135px;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 50px solid #3683F7;
 }
 
